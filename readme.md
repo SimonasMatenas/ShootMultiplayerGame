@@ -1,6 +1,12 @@
 # ShootMultiplayerGame
 
+## Technology
+
+F#
+
 ## Starting project
+
+yarn install
 
 cd src/Game1
 
