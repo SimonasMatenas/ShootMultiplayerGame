@@ -41,7 +41,7 @@ let writeStats (world: Game1.World) =
   let metrics = ctx.measureText(text)
   ctx.fillText(text, fst gameAreaSize - metrics.width, (snd gameAreaSize) + 25.) |> ignore
   // Score
-  let text = sprintf "%i ----- %i" world.scoreP1 world.scoreP2
+  let text = sprintf "%i -- %i" world.scoreP1 world.scoreP2
   let metrics = ctx.measureText(text)
   ctx.fillText(text, fst gameAreaSize / 2. - metrics.width / 2., (snd gameAreaSize) + 25.) |> ignore
 
